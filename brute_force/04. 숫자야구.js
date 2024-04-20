@@ -29,7 +29,7 @@ const solution = () => {
         let count = 0;
 
         for (const hint of ARR) {
-          const [number, ball, strike] = hint;
+          const [number, strike, ball] = hint;
           const digits = String(number).split("").map(Number);
           let ball_count = 0;
           let strike_count = 0;
